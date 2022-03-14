@@ -1,4 +1,4 @@
-## Estimating age to most recent common ancestor: Setting a period with a sampling proportion of Zero
+## Beast2 Birth-death skyline serial: Setting a period with a sampling proportion of Zero
 
 Typically when estimating the node age of divergence of virus sequences, there is a period for which no sequence data is available. This is the period before the oldest sequence available. For this region, the correct sampling proportion is 0. To set this, some changes need to be made to the BEAST XML file. 
 
