@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import datetime
 
-
+"""This function is from: https://gist.github.com/jefftriplett/3980637"""
 def prettify(elem):
     """Return a pretty-printed XML string for the Element.
     """
@@ -50,7 +50,7 @@ for data_id in id_names:
 			trait_value=trait_element.get("value")
 			
 			#Value is a comma delimited string like:
-			#MT894381=2016,MW380865=2019,JF510462=1975,KJ469653=1977,MH777395=2016,MH777398=2015,MN923205=2019,MH777397=2016,MH777396=2017,MN539540=2016,KR135164=2014,MN551586=2015,MT792736=2018
+			#MT894381=2016,MW380865=2019,JF510462=1975,KJ469653=1977,...
 			
 			#so split the string by comma
 			sequence_date_pairs=trait_value.split(",")
