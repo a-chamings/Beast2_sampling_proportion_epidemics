@@ -57,4 +57,6 @@ done
 
 # create the slice function
 slice_function="<function spec="beast.core.util.Slice" id="samplingProportionSlice" arg="@samplingProportion" index="1" count="1"/>"
+
+# Looks for python script in same path as this file:
 python3 ${script_path}/alter_beast2_xml_sampling.py $input_xml $oldest_sequence $output_xml
