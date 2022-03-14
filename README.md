@@ -29,16 +29,16 @@ Note: if you reload this xml file in Beauti, some of these changes will be alter
 
 
 
-`<distribution id="BDSKY_Serial.t:adenovirus_polymerase_muscle" 	spec="beast.evolution.speciation.BirthDeathSkylineModel" 	becomeUninfectiousRate="@becomeUninfectiousRate_BDSKY_Serial.t:adenovirus_polymerase_muscle" 	origin="@origin_BDSKY_Serial.t:adenovirus_polymerase_muscle" 	reproductiveNumber="@reproductiveNumber_BDSKY_Serial.t:adenovirus_polymerase_muscle" 	samplingProportion="@samplingProportion_BDSKY_Serial.t:adenovirus_polymerase_muscle" 	tree="@Tree.t:adenovirus_polymerase_muscle">
+`<distribution id="BDSKY_Serial.t:adenovirus_polymerase_muscle" spec="beast.evolution.speciation.BirthDeathSkylineModel" 	becomeUninfectiousRate="@becomeUninfectiousRate_BDSKY_Serial.t:adenovirus_polymerase_muscle" 	origin="@origin_BDSKY_Serial.t:adenovirus_polymerase_muscle" reproductiveNumber="@reproductiveNumber_BDSKY_Serial.t:adenovirus_polymerase_muscle" 	samplingProportion="@samplingProportion_BDSKY_Serial.t:adenovirus_polymerase_muscle" tree="@Tree.t:adenovirus_polymerase_muscle">
                 
 	<parameter id="RealParameter.1" spec="parameter.RealParameter" dimension="2" name="samplingRateChangeTimes">0.0 <oldest sequence age>.0000001"</parameter>
 
 	<reverseTimeArrays id="BooleanParameter.0" spec="parameter.BooleanParameter" dimension="6">false false true false false false</reverseTimeArrays>
-</distribution>
+</distribution>`
 
 
 
-<prior id="samplingProportionPrior_BDSKY_Serial.t:adenovirus_polymerase_muscle" name="distribution">
+`<prior id="samplingProportionPrior_BDSKY_Serial.t:adenovirus_polymerase_muscle" name="distribution">
 	<x id="samplingProportionSlice" spec="util.Slice" 	
 		arg="@samplingProportion_BDSKY_Serial.t:adenovirus_polymerase_muscle" index="1"/>
  	<Beta id="Beta.1" name="distr">
